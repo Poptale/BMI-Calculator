@@ -11,6 +11,9 @@ calculate.addEventListener("click", () => {
     bmiScore.innerHTML = Math.floor(score);
     checking();
     emptyScore();
+    console.log(weight.value);
+    console.log(height.value);
+    console.log(score);
 })
 
 function emptyScore() {
